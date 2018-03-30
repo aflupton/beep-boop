@@ -1,8 +1,10 @@
 #result {
   display: none;
   font-weight: bold;
-  max-width: 25%;
+  max-width: 50%;
   margin-top: 20px;
+  font-size: 30pt;
+  font-style: italic;
 }
 #inputForm {
   max-width: 50%;

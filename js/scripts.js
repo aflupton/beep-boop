@@ -1,16 +1,15 @@
 //define variables
 var userOutput;
 var userInput;
-var userArray =[];
 
 //transform function
-function output(userInput) {
-  if (userInput%3 !== 0 || userInput === 0) {
-    return "Beep";
-  } else if (number.includes (1) && userInput%3 !==0 || userInput == 1) {
-    return "Boop";
-  } else if (userInput%3 ===0) {
-  return "I'm sorry Dave, I'm afraid I can't do that.!";
+function output(num) {
+  if (num%3 !== 0 && num === 0 && num !==1) {
+    return "Beep!";
+  } else if (num%3 !==0 || num == 1) {
+    return "Boop!";
+  } else if (num%3 ===0 && num !==0) {
+    return "I'm sorry Dave, I'm afraid I can't do that!";
 
   }
 };
@@ -29,9 +28,9 @@ $(document).ready(function() {
     //show result
     $("#output").text(userOutput);
     $("#result").show();
-    if(!userInput) {
+    if(!userInput || userInput == 0) {
       alert ("That's not a valid number");
-      return "";
+      $("#result").hide();
     }
 
     //hide result
