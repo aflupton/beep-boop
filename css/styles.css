@@ -1,0 +1,7 @@
+#result {
+  display: none;
+  font-weight: bold;
+}
+#inputForm {
+  max-width: 50%;
+}
