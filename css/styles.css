@@ -1,7 +1,16 @@
 #result {
   display: none;
   font-weight: bold;
+  max-width: 25%;
+  margin-top: 20px;
 }
 #inputForm {
   max-width: 50%;
+}
+#button {
+  margin-top: 20px;
+}
+#hideResult {
+  font-size: 10pt;
+  margin-top: 30px;
 }
