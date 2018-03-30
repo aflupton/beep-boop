@@ -20,7 +20,7 @@ This program replaces certain numbers given by the user with the phrases "Beep!"
 * _Open the index.html file in your browser._
 
 ## Known Bugs
-* _None, currently._
+* _Some numbers are processed incorrectly._
 
 ## Technology Used
 * _HTML_
