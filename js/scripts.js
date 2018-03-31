@@ -4,9 +4,9 @@ var userInput;
 
 //transform function
 function output(num) {
-  if (num%3 !== 0 && num === 0 && num !==1) {
+  if (num%3 !== 0 && num === 0 && num !==1 || num.includes == 0) {
     return "Beep!";
-  } else if (num%3 !==0 || num == 1) {
+  } else if (num%3 !==0 || num.includes == 1) {
     return "Boop!";
   } else if (num%3 ===0 && num !==0) {
     return "I'm sorry Dave, I'm afraid I can't do that!";
